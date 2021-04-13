@@ -11,7 +11,7 @@ You can specify the following properties in the script (ddnsupdater.py):
 - Paste **ddnsupdater.service** into **/lib/systemd/system/**
 
 ## Commands
-Enables auto-restart on reboot
+Enables auto-start on reboot
 ```
 sudo systemctl enable ddnsupdater
 ```
