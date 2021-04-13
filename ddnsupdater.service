@@ -1,0 +1,14 @@
+[Unit]
+Description=DDNS Updating Service
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/python3 /scripts/ddnsupdater.py
+User=pi
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=ddnsupdater
+
+[Install]
+WantedBy=multi-user.target
