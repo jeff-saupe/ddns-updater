@@ -1,5 +1,5 @@
 # DDNS Updater
-Python script running as __system service__ which automatically updates a DynDNS in a specified interval via HTTP
+Python script running as __system service__ which automatically updates a DynDNS in a specified interval via HTTP.
 
 ## Settings
 You can specify the following properties in the script (ddnsupdater.py):
